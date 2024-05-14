@@ -1,11 +1,11 @@
-import { CocktailCard } from "./cocktailCard";
+import { CocktailDetail } from "../pages/CocktailDetail";
 
 import "./cocktailGrid.css";
 
 export const CocktailGrid = () => {
     return( 
         <>
-        <CocktailCard  />
+        <CocktailDetail  />
         </>
         )
         }
