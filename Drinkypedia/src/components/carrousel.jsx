@@ -33,24 +33,24 @@ export const Carrousel = () => {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active" data-bs-interval="10000">
-          <img src="/tragos1.jpg" className="d-block w-100" alt="..." />
+          <img src="/tragos1.jpeg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Drinkypedia</h5>
-            <p>First page to consult how to do a great cocktail!</p>
+            <h5 className='letter'>Drinkypedia</h5>
+            <p className='letter1'>First page to consult how to do a great cocktail!</p>
           </div>
         </div>
         <div className="carousel-item" data-bs-interval="2000">
-          <img src="/tragos1.jpg" className="d-block w-100" alt="..." />
+          <img src="/tragos1.jpeg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Register Now!</h5>
-            <p>And save your favourite cocktails.</p>
+            <h5 className='letter'>Register Now!</h5>
+            <p className='letter1' >And save your favourite cocktails.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="/tragos1.jpg" className="d-block w-100" alt="..." />
+          <img src="/tragos1.jpeg" className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
-            <h5>Create new cocktails!</h5>
-            <p>Be creative and design your own cocktails.</p>
+            <h5 className='letter' >Create new cocktails!</h5>
+            <p className='letter1' >Be creative and design your own cocktails.</p>
           </div>
         </div>
       </div>

@@ -1,7 +1,5 @@
 import "./cocktailCard.css";
 
 export const CocktailCard = () => {
-    return (
-        <h1>Card de cocktail</h1>
-    )
-}
+  return <h1>Card de cocktail</h1>;
+};
