@@ -2,7 +2,7 @@ import { get } from "../utils/conexionApi"
 import { useState, useEffect } from "react"
 import { useParams } from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import '../components/cocktailDetails.css'
+import '../css/cocktailDetails.css'
 
 
 export const CocktailDetail = () => {
@@ -18,7 +18,7 @@ export const CocktailDetail = () => {
         })
     }, [cocktailid])
 
-    console.log(cocktail)
+    // console.log(cocktail)
 
 
     // si pongo que el id no existe

@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import 'bootstrap/dist/js/bootstrap.bundle.min';
-import './carrousel.css';
+
+import '../css/carrousel.css';
 
 export const Carrousel = () => {
   return (

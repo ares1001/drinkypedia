@@ -1,12 +1,12 @@
-import {BrowserRouter,Routes,Route,Link} from "react-router-dom"
-
-
+import {BrowserRouter,Routes,Route} from "react-router-dom"
+import { Home } from "./pages/Home";
+// import { Cocktails } from "./pages/Cocktails"
 import { CocktailDetail } from "./pages/CocktailDetail" 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import { CocktailList } from "./pages/CocktailList";
 
-import { Home } from "./pages/Home"
-import { Cocktails } from "./pages/Cocktails"
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 
 
@@ -17,7 +17,7 @@ export const App = ()  =>{
  
   <Routes>
     <Route path = "/" element = { <Home/>} />
-    <Route path = "/cocktails" element = { <Cocktails/>}/>
+    <Route path = "/cocktails" element = { <CocktailList/>}/>
     <Route path = "/cocktails/:cocktailid" element = { <CocktailDetail/>}/>
   </Routes>
   </BrowserRouter>
