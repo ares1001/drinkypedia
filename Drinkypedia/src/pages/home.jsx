@@ -7,7 +7,7 @@ import { Footer } from '../components/Footer'
 
 import '../css/home.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 export const Home = () => {

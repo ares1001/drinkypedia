@@ -1,6 +1,7 @@
 import { Cocktails } from "../components/Cocktails"
 import { get } from "../utils/conexionApi"
 import { useState, useEffect } from "react"
+import '../css/cocktailList.css'
 
 
 export const CocktailList = () => {
@@ -29,7 +30,7 @@ export const CocktailList = () => {
 
  return (
   // mapear 
-<ul>
+<ul className="titulos">
 
   {cocktail.map((cocktail) => (
  <Cocktails key = {cocktail.idDrink} cocktailMap={cocktail}/>  // siempre que hay un Loop . React necesita el key  que identifica cada elemento como unico , es regla !!!!!

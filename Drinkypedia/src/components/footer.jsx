@@ -1,4 +1,7 @@
 import '../css/footer.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 export const Footer = () => {
     return (
